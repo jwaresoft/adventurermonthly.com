@@ -8,13 +8,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color:rgb(0, 0, 0, .7)
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+  background-color:rgb(0, 0, 0, .7);
+  color: whitesmoke;  
 }
 
 .buttons {
@@ -23,11 +18,13 @@
   justify-content: center;
 }
 
-.aMWallpaperWrapper{
+.aMWallpaperWrapper {
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   background-image: url("/img/wallpapers-tile/am-tile-undead-01.webp");
   background-repeat: repeat; 
 }
+
