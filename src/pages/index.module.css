@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color:rgb(0, 0, 0, .7)
 }
 
 @media screen and (max-width: 996px) {
@@ -22,9 +23,11 @@
   justify-content: center;
 }
 
-.adventurer-monthly-wallpaper-wrapper {
-  flex: 1;
-  align-self: stretch;
-  background-image: url("/static/img/wallpapers-tile/am-tile-02.webp");
-  background-repeat: repeat
+.aMWallpaperWrapper{
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("/img/wallpapers-tile/am-tile-undead-01.webp");
+  background-repeat: repeat; 
 }

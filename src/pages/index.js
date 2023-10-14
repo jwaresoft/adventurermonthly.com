@@ -16,7 +16,7 @@ function HeroBanner() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/guides">
             The Guides
           </Link>
         </div>
@@ -27,7 +27,7 @@ function HeroBanner() {
 
 function BackgroundWrapper(props) {
   return (
-    <div className="adventurer-monthly-wallpaper-wrapper">
+    <div className={clsx('amWallpaper', styles.aMWallpaperWrapper)}>
       {props.children}
     </div>)
 }
