@@ -72,30 +72,7 @@ const config = {
           },
         ],
       },
-      // footer: {
-      //   style: 'dark',
-      //   links: [
-      //     {
-      //       title: 'Foundry',
-      //       items: [
-      //         {
-      //           label: 'Guides',
-      //           to: '/docs/guides',
-      //         },
-      //       ],
-      //     },
-          
-      //     {
-      //       title: 'More',
-      //       items: [
-      //         {
-      //           label: 'GitHub',
-      //           href: 'https://github.com/adventurermonthly?tab=repositories',
-      //         },
-      //       ],
-      //     },
-      //   ],
-      // },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

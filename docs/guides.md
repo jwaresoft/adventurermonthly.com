@@ -3,13 +3,9 @@ sidebar_position: 1
 ---
 # Guides
 
-![wizard on a computer](/img/guide-wizard.png)
+![wizard on a computer](/img/guides-img/guide-wizard.webp)
 
 Assorted guides for foundry.  These are **not** intended to compose any kind of tutorial for using foundry, more or less specific guides for specific scenarios or use-cases, shared to ideally be helpful to others.
-
-## Self Hosting Guides
-
-**DISCLAIMER** These are presented as is with no warantee, expectation of security, or anything like that.  These are simply guides for how someone who has contributed to this github projected has set something up.  They do not come with security audits, stats, dashboards, metrics, or ANY promises of being up to date.
 
 
 ## Submit a Guide

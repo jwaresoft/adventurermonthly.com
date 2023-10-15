@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Guides and modules for foundry vtt, other oddities."
+      description="Guides and scripts for foundry vtt, assorted ttrpg assets, other oddities."
     >
       <BackgroundWrapper>
         <HeroBanner />

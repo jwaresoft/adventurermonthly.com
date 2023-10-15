@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
+title: With Cloudflare & Docker Compose
 ---
 # Foundry SelfHost With Cloudflare & Docker Compose
 
