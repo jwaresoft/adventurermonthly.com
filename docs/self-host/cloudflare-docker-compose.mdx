@@ -1,0 +1,48 @@
+---
+sidebar_position: 1
+title: With Cloudflare & Docker Compose
+---
+
+import SelfHostDisclaimer from '@site/docs_partials/_self_host_disclaimer.mdx';
+import InstallDockerTabs from '@site/docs_partials/_install_docker_tabs.mdx';
+
+
+# Foundry SelfHost With Cloudflare & Docker Compose
+
+An alternative to port forwarding.
+
+<SelfHostDisclaimer />
+
+## 1. Setup a Cloudflare Account
+
+If you don't already have one, [sign up](https://dash.cloudflare.com/sign-up) for one.
+
+## 2. Purchase or Transfer a Domain Name (or don't) 
+
+I belive you can skip this step if you *REALLY* don't want to purchase a domain name.  If you would like to be able to have a custom domain (or more likely a number of subdomains at a custom domain) you can do so in one of the following ways:
+
+### 2.a If You Already Purchased A Domain Elsewhere...
+
+There are a few steps to setup your domain with cloudflare if you purchased it elsewhere.
+
+Before you can set up your tunnel, you will need to [add a site and configure cloudflare domain servers](https://developers.cloudflare.com/dns/zone-setups/full-setup/setup/).
+
+These are the prereqs you will see in the [tunnel docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/install-and-setup/tunnel-guide/local/#prerequisites).
+
+### 2.b If You Would Like To Just Buy One At Cloudflare ( or not buy one at all)...
+
+You can register a new domain name with [Cloudflare Registrar](https://developers.cloudflare.com/registrar/get-started/register-domain/).
+
+You will want to [add a site](https://developers.cloudflare.com/fundamentals/setup/account-setup/add-site/) in either case as I believe it is a required step for the tunnel.
+
+
+## 3. Setup a new Tunnel
+
+This can be done either through [Cloudflare's WebUI](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/) or for those prefering the command line, the Cloudflare CLI.
+
+
+## 4. Docker Compose
+
+<InstallDockerTabs />
+
+<SelfHostDisclaimer />

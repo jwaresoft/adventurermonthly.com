@@ -3,9 +3,15 @@ sidebar_position: 1
 ---
 # Guides
 
-![wizard on a computer](/img/guides-img/guide-wizard.webp)
+![wizard on a computer](/img/guides-img/the-wiz.webp)
 
 Assorted guides for foundry.  These are **not** intended to compose any kind of tutorial for using foundry, more or less specific guides for specific scenarios or use-cases, shared to ideally be helpful to others.
+
+## Self Hosting Guides
+
+## Game System Automation
+
+## General Advice & Useful Links
 
 
 ## Submit a Guide
