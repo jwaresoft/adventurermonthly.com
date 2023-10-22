@@ -1,0 +1,49 @@
+import InstallDockerTabs from '@site/docs_partials/_install_docker_tabs.mdx';
+
+
+# Docker
+
+
+<img src="/svg/docker.svg" className="guide-img-300"/>
+
+
+
+This is and will not be any kind of remotely comprehensive tutorial of docker or docker compose.  It is, however, ideally a decent resource for getting you to the bits you need to know to utilize any docker based self host setups. 
+
+## Docker Overview
+
+[Docker Overview](https://docs.docker.com/get-started/overview/) - the official overview for those new to docker and wondering "what the hell is docker."
+
+## Install Docker
+
+Windows and MacOS only have docker desktop.  Linux has both docker desktop, and just the docker engine (cli only).  Any of these will install docker compose.
+
+<InstallDockerTabs />
+
+## Docker Compose
+
+[Docker Compose Overview](https://docs.docker.com/compose/) - an overview of docker compose.
+
+### Start A Docker Compose App 
+
+#### CLI
+
+From the directory which has the `docker-compose.yml` file, run
+
+```
+docker compose up
+```
+
+that's it.
+
+### Stop A Docker Compose App
+
+#### CLI
+
+From the directory which has the `docker-compose.yml` file, run
+
+```
+docker compose down
+```
+
+that's it.
