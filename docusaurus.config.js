@@ -68,7 +68,7 @@ const config = {
           {
             href: 'https://github.com/adventurermonthly?tab=repositories',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
           },
         ],
       },

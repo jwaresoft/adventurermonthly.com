@@ -1,0 +1,9 @@
+{
+    "label": "Game System Automation",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Notes on attempting to automate game systems with foundry modules with configurations (maybe)."
+    }
+  }
+  
