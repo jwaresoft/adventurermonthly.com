@@ -1,7 +1,7 @@
 import React from 'react';
-import CandleDark from '/svg/candle-dark.svg'
+
 export default function IconDarkMode(props) {
   return (
-    <CandleDark {...props} />
-  );
+    <img src="/svg/candle-dark.svg" width="32px" height="32px" {...props}  />
+    );
 }

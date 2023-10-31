@@ -11,7 +11,7 @@ function HeroBanner() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="heroH1">{siteConfig.title}</h1>
+        <h1 className="heroH1">Adventurer <br/> Monthly</h1>
         <p className="heroSubtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link

@@ -24,7 +24,9 @@
   flex-direction: column;
   justify-content: center;
 
-  background-image: url("/img/wallpapers-tile/am-orc-servers-01.webp");
-  background-repeat: repeat; 
+  background-image: url("/img/wallpapers-stretch/goblin-servers.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
