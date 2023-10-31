@@ -1,9 +1,0 @@
-{
-    "label": "Self Hosting Guides",
-    "position": 1,
-    "link": {
-      "type": "generated-index",
-      "description": "A place to post self hosting guides.  Dive in and self host your foundry instance today!  Have your own?  Open a Pull Request on our github!"
-    }
-  }
-  
