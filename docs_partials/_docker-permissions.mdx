@@ -1,0 +1,12 @@
+
+:::note
+
+
+If you try to run `docker compose up` on  linux and get permission denied, there are two remedies.
+
+1. run `sudo docker compose up` - by default your user is not added to the docker group and cannot start / stop containers.  Running as root remedies this.
+
+2. Add your user to the docker group.  This is easy and there are instructions in Docker's [Linux post-installation steps for Docker Engine](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
+
+
+:::
